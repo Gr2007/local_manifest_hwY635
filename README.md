@@ -1,39 +1,51 @@
-# Local Manifests
+Local Manifests
+=================================
+
 
 Instructions
+---------------
 
 Initializing:
 
-First, create a folder to hold the source code:
+First, create a folder to hold the source code: 
 
-mkdir ~/RR
+	mkdir ~/RR
 
 Next..
 
-cd ~/RR
+	cd ~/RR
 
 Initialize local repository:
 
-repo init -u https://github.com/ResurrectionRemix/platform_manifest.git -b lollipop5.1
+    repo init -u https://github.com/ResurrectionRemix/platform_manifest.git -b lollipop5.1
 
 Also add the local manifests:
 
-git clone https://github.com/Gr2007/local_manifests .repo/local_manifests
+    git clone https://github.com/Gr2007/local_manifests .repo/local_manifests
+
 Sync up:
 
-repo sync --force-sync --force-broken
-
-*Building*
+	repo sync --force-sync --force-broken
+	
+-------------
+ 
+_Building_
+---------------
 
 First:
 
-cd ~/RR
+	cd ~/RR
+
 Second:
 
-. build/envsetup.sh
+	. build/envsetup.sh
+
 Third:
 
-brunch codename
+    brunch codename
+    
 Example:
 
-brunch hwY550
+    brunch hwY635
+
+brunch hwY635
