@@ -1,26 +1,30 @@
 # local_manifest_hwY635
-Local Manifests
+# Local Manifests
 
-Instructions
+# Instructions
 
-Initializing:
+# Initializing:
 
-First, create a folder to hold the source code:
+# First, create a folder to hold the source code:
 
 mkdir ~/RR
-Next..
+
+# Next..
 
 cd ~/RR
-Initialize local repository:
+
+# Initialize local repository:
 
 repo init -u https://github.com/ResurrectionRemix/platform_manifest.git -b lollipop5.1
-Also add the local manifests:
+
+# Also add the local manifests:
 
 git clone https://github.com/Gr2007/local_manifests .repo/local_manifests
-Sync up:
+# Sync up:
 
 repo sync --force-sync --force-broken
-Building
+
+#  Building
 
 First:
 
