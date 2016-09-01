@@ -18,6 +18,10 @@ Next..
 Initialize local repository:
 
     repo init -u https://github.com/ResurrectionRemix/platform_manifest.git -b lollipop5.1
+    
+Sync up:
+
+	repo sync -j16 -f --force-sync --no-clone-bundle
 
 Also add the local manifests:
 
